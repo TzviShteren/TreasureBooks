@@ -1,0 +1,68 @@
+﻿@model IEnumerable<treasureBooks.Models.LibraryModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<p>
+	<a asp-action="AddNewLibrary">Create New</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Id)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Genre)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<script></script>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Id)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Genre)
+				</td>
+				<td>
+					@Html.ActionLink("Add Shelf", "AddNewShelf", "Shelf", new { Id = item.Id, Name = item .Genre})
+				</td>
+			</tr>
+		}
+		<div>
+			<input type="text" id="inputField" oninput="My()" name="r" />
+			<div id="results"></div>
+			<script>
+				function My() {
+					var s = document.getElementById("inputField").value;
+					var items = @Html.Raw(Json.Serialize(Model.Select(m => m.Genre).ToList()));
+					var resultsDiv = document.getElementById("results");
+					resultsDiv.innerHTML = "";
+					if (s === "") {
+						resultsDiv.textContent = "";
+						return;
+					}
+					var matchingItems = items.filter(function (item) {
+						return item.includes(s);
+					});
+					if (matchingItems.length > 0) {
+						matchingItems.forEach(function (item) {
+							var p = document.createElement("p");
+							p.textContent = item;
+							resultsDiv.appendChild(p);
+						});
+					} else {
+						resultsDiv.textContent = "לא נמצאו ערכים תואמים.";
+					}
+				}
+			</script>
+		</div>
+	</tbody>
+</table>

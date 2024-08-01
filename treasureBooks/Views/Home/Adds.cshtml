@@ -1,0 +1,47 @@
+﻿<h1>Welcome to Additions</h1>
+
+<div class="link-container">
+    <a asp-controller="Library" asp-action="AddNewLibrary">
+        <p>To add a library</p>
+    </a>
+    <a asp-action="Shelf" asp-action="Index">
+        <p>To add a set</p>
+    </a>
+    <a asp-action="AddShelf" asp-action="AddNewLibrary">
+        <p>To add a shelf</p>
+    </a>
+</div>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #5a5a5a;
+    }
+
+    .link-container {
+        margin-top: 20px;
+    }
+
+        .link-container a {
+            text-decoration: none;
+            color: #007bff;
+            display: block;
+            margin: 10px 0;
+        }
+
+            .link-container a:hover {
+                text-decoration: underline;
+            }
+
+        .link-container p {
+            margin: 0;
+            padding: 10px;
+            background-color: #e7e7e7;
+            border-radius: 5px;
+        }
+</style>

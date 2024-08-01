@@ -1,0 +1,101 @@
+﻿@model List<treasureBooks.Models.LibraryModel>
+
+<div class="container mt-5">
+    @foreach (var lib in Model)
+    {
+        <div class="genre-section mb-4">
+            <h1 class="genre-title">@lib.Genre</h1>
+            <hr class="hr-custom" />
+            @foreach (var shelfs in lib.Shelfs)
+            {
+                <div class="shelf-section mb-3">
+                    <h2 class="shelf-title">Shelf ID: @shelfs.Id</h2>
+                    <p>Height: @shelfs.Height cm</p>
+                    <p>Width: @shelfs.Width cm</p>
+                    <div class="book-set-section ml-4">
+                        @foreach (var SetBook in shelfs.SetBooksList)
+                        {
+                            <h3 class="book-set-title">@SetBook.Title</h3>
+                            @foreach (var Book in SetBook.Books)
+                            {
+                                <div class="book-details ml-3 mb-2">
+                                    <h4 class="book-title">@Book.Name</h4>
+                                    <p>Height: @Book.Height cm</p>
+                                    <p>Width: @Book.Width cm</p>
+                                    <p>Genre: @Book.Genre</p>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .genre-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: #343a40;
+    }
+
+    .shelf-title {
+        font-size: 1.75rem;
+        font-weight: bold;
+        color: #495057;
+    }
+
+    .book-set-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #6c757d;
+    }
+
+    .book-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    .book-details p {
+        margin: 0;
+    }
+
+    .hr-custom {
+        border-top: 3px solid #007bff;
+    }
+</style>
+
+@* <div>
+    @foreach (var lib in @Model)
+    {
+        <h1>@lib.Genre</h1>
+        <hr />
+        @foreach (var shelfs in lib.Shelfs)
+        {
+            <h2>@shelfs.Id</h2>
+            <p>@shelfs.Height</p>
+            <p>@shelfs.Width</p>
+            <div>
+                @foreach (var SetBook in shelfs.SetBooksList)
+                {
+                    <h3>@SetBook.Title</h3>
+                    foreach (var Book in SetBook.Books)
+                    {
+                        <h4>@Book.Name</h4>
+                        <p>@Book.Height</p>
+                        <p>@Book.Width</p>
+                        <p>@Book.Genre</p>
+                    }
+                }
+            </div>
+        }
+    }
+</div> *@
