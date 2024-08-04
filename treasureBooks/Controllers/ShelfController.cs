@@ -6,36 +6,42 @@ using treasureBooks.ViewModel;
 
 namespace treasureBooks.Controllers
 {
-    public class ShelfController : Controller
+    public class ShelfController(IShelfServis shelfServis) : Controller
     {
         
-        private readonly IShelfServis _shelfServis;
-        private readonly ApplicationDbContext _context;
+        private readonly IShelfServis _shelfServis = shelfServis;
+        
 
-
-        public ShelfController(IShelfServis servis, ApplicationDbContext context)
+        public async Task<IActionResult> Index(long libraryId)
         {
-            _shelfServis = servis;
-            _context = context;
+            try
+            {
+                var shelves = await _shelfServis.GetAllShelfsByLibraryIdAsync(libraryId);
+                return View(shelves);
+            }
+            catch (Exception)
+            {
+                return View("Index", "Library");
+            }
         }
 
-        public async Task<IActionResult> Index()
-        {         
-
-            return View(await _shelfServis.GetAllShelfs());
-        }
-
-        public IActionResult AddNewShelf(long Id, string Name)
-        {
-            ViewBag.Name = Name;
-            ViewBag.Id = Id;
-            return View(new ShelfAddVM() { LibraryId = Id, NameLibrary = Name });
-        }
+        public IActionResult CreateShelf(long libraryId) =>
+            View(new ShelfAddVM() { LibraryId = libraryId });
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddNewShelf(ShelfAddVM vm) =>
-                    await _shelfServis.AddShelf(vm) ? RedirectToAction("Index") : View(vm);
-
+        public async Task<IActionResult> CreateShelf(ShelfAddVM vm)
+        {
+            try
+            {
+                await _shelfServis.GetAllShelfsByLibraryIdAsync(vm.LibraryId);
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("createError", ex.Message);
+                return View(new LibraryAddVM());
+            }
+        }
     }
 }

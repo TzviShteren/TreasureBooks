@@ -13,7 +13,10 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="AddNewShelf">
+        <form asp-action="AddNewShelf" method="post">
+            @Html.AntiForgeryToken();
+
+            @Html.HiddenFor(m => m.LibraryId)
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Height" class="control-label"></label>

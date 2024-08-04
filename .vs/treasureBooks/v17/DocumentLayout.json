@@ -3,92 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\views\\setbooks\\addnewset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\views\\setbooks\\addnewset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\views\\setbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\views\\setbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\controllers\\setbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\controllers\\setbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\controllers\\shelfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\controllers\\shelfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\servis\\bookservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\servis\\bookservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\servis\\setbooksservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\servis\\setbooksservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\views\\book\\addnewbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\views\\book\\addnewbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\servis\\ibookservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\servis\\ibookservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\servis\\ilibraryservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\servis\\ilibraryservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\servis\\ishelfservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\servis\\ishelfservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\servis\\libraryservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\servis\\libraryservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\servis\\shelfservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\servis\\shelfservis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\views\\library\\allinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\views\\library\\allinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\viewmodel\\shelfaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\viewmodel\\shelfaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\viewmodel\\setbookaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\viewmodel\\setbookaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\views\\shelf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\views\\shelf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|c:\\users\\stern\\desktop\\studies codekod2\\c#\\treasurebooks\\treasurebooks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C9D858-45FE-47A3-A0A9-7DFB2B745293}|treasureBooks\\treasureBooks.csproj|solutionrelative:treasurebooks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,34 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 279,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "ShelfServis.cs",
               "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\ShelfServis.cs",
               "RelativeDocumentMoniker": "treasureBooks\\Servis\\ShelfServis.cs",
               "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\ShelfServis.cs",
               "RelativeToolTip": "treasureBooks\\Servis\\ShelfServis.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCYAAAAbAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T06:48:22.574Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-08-04T08:30:04.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SetBooksServis.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\SetBooksServis.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Servis\\SetBooksServis.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\SetBooksServis.cs",
-              "RelativeToolTip": "treasureBooks\\Servis\\SetBooksServis.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwA4AAAAfAAAA",
+              "DocumentIndex": 1,
+              "Title": "IShelfServis.cs",
+              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\IShelfServis.cs",
+              "RelativeDocumentMoniker": "treasureBooks\\Servis\\IShelfServis.cs",
+              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\IShelfServis.cs",
+              "RelativeToolTip": "treasureBooks\\Servis\\IShelfServis.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:23:54.738Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-08-04T08:29:59.318Z",
               "EditorCaption": ""
             },
             {
@@ -138,259 +60,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LibraryController.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Controllers\\LibraryController.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Controllers\\LibraryController.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Controllers\\LibraryController.cs",
-              "RelativeToolTip": "treasureBooks\\Controllers\\LibraryController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T13:59:44.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SetBooksController.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Controllers\\SetBooksController.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Controllers\\SetBooksController.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Controllers\\SetBooksController.cs",
-              "RelativeToolTip": "treasureBooks\\Controllers\\SetBooksController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAApwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:10:04.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\SetBooks\\Index.cshtml",
-              "RelativeDocumentMoniker": "treasureBooks\\Views\\SetBooks\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\SetBooks\\Index.cshtml",
-              "RelativeToolTip": "treasureBooks\\Views\\SetBooks\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T14:45:59.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddNewSet.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\SetBooks\\AddNewSet.cshtml",
-              "RelativeDocumentMoniker": "treasureBooks\\Views\\SetBooks\\AddNewSet.cshtml",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\SetBooks\\AddNewSet.cshtml",
-              "RelativeToolTip": "treasureBooks\\Views\\SetBooks\\AddNewSet.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T14:46:55.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Controllers\\BookController.cs",
-              "RelativeToolTip": "treasureBooks\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T14:17:54.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ShelfController.cs",
               "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Controllers\\ShelfController.cs",
               "RelativeDocumentMoniker": "treasureBooks\\Controllers\\ShelfController.cs",
               "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Controllers\\ShelfController.cs",
               "RelativeToolTip": "treasureBooks\\Controllers\\ShelfController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAuwCEAAAAIAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T11:25:55.885Z",
+              "WhenOpened": "2024-08-04T08:29:26.779Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookServis.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\BookServis.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Servis\\BookServis.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\BookServis.cs",
-              "RelativeToolTip": "treasureBooks\\Servis\\BookServis.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwDAAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T14:19:26.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddNewBook.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Book\\AddNewBook.cshtml",
-              "RelativeDocumentMoniker": "treasureBooks\\Views\\Book\\AddNewBook.cshtml",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Book\\AddNewBook.cshtml",
-              "RelativeToolTip": "treasureBooks\\Views\\Book\\AddNewBook.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T14:36:28.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Library\\Index.cshtml",
-              "RelativeDocumentMoniker": "treasureBooks\\Views\\Library\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Library\\Index.cshtml",
-              "RelativeToolTip": "treasureBooks\\Views\\Library\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T14:40:10.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Book\\Index.cshtml",
-              "RelativeDocumentMoniker": "treasureBooks\\Views\\Book\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Book\\Index.cshtml",
-              "RelativeToolTip": "treasureBooks\\Views\\Book\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T14:29:41.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "treasureBooks\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "treasureBooks\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T12:12:18.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IBookServis.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\IBookServis.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Servis\\IBookServis.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\IBookServis.cs",
-              "RelativeToolTip": "treasureBooks\\Servis\\IBookServis.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T14:19:01.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ILibraryServis.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\ILibraryServis.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Servis\\ILibraryServis.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\ILibraryServis.cs",
-              "RelativeToolTip": "treasureBooks\\Servis\\ILibraryServis.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T13:42:02.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LibraryServis.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\LibraryServis.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Servis\\LibraryServis.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\LibraryServis.cs",
-              "RelativeToolTip": "treasureBooks\\Servis\\LibraryServis.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCEAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T13:53:27.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IShelfServis.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\IShelfServis.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Servis\\IShelfServis.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Servis\\IShelfServis.cs",
-              "RelativeToolTip": "treasureBooks\\Servis\\IShelfServis.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T06:48:06.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AllInformation.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Library\\AllInformation.cshtml",
-              "RelativeDocumentMoniker": "treasureBooks\\Views\\Library\\AllInformation.cshtml",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Library\\AllInformation.cshtml",
-              "RelativeToolTip": "treasureBooks\\Views\\Library\\AllInformation.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T13:40:50.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SetBookAddVM.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\ViewModel\\SetBookAddVM.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\ViewModel\\SetBookAddVM.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\ViewModel\\SetBookAddVM.cs",
-              "RelativeToolTip": "treasureBooks\\ViewModel\\SetBookAddVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T10:29:45.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ShelfAddVM.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\ViewModel\\ShelfAddVM.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\ViewModel\\ShelfAddVM.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\ViewModel\\ShelfAddVM.cs",
-              "RelativeToolTip": "treasureBooks\\ViewModel\\ShelfAddVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T06:56:08.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Shelf\\Index.cshtml",
-              "RelativeDocumentMoniker": "treasureBooks\\Views\\Shelf\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Views\\Shelf\\Index.cshtml",
-              "RelativeToolTip": "treasureBooks\\Views\\Shelf\\Index.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwCoAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T08:46:21.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Program.cs",
-              "RelativeDocumentMoniker": "treasureBooks\\Program.cs",
-              "ToolTip": "C:\\Users\\Stern\\Desktop\\Studies codekod2\\C#\\treasureBooks\\treasureBooks\\Program.cs",
-              "RelativeToolTip": "treasureBooks\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAA8AAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T08:10:42.748Z"
             }
           ]
         }

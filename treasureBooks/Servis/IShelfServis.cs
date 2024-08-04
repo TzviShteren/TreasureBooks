@@ -5,7 +5,8 @@ namespace treasureBooks.Servis
 {
     public interface IShelfServis
     {
-        Task<IEnumerable<ShelfModel>> GetAllShelfs();
-        Task<bool> AddShelf(ShelfAddVM newShelf);
+        Task<List<ShelfModel>> GetAllShelfsAsync();
+        Task<List<ShelfModel>> GetAllShelfsByLibraryIdAsync(long libraryId);
+        Task<ShelfModel> CreateShelfByLibraryIdAsync(ShelfAddVM shelfVM);
     }
 }

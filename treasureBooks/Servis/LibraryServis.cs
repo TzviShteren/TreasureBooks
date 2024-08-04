@@ -6,40 +6,41 @@ using treasureBooks.ViewModel;
 
 namespace treasureBooks.Servis
 {
-    public class LibraryServis : ILibraryServis
+    public class LibraryServis(ApplicationDbContext context) : ILibraryServis
     {
+        private readonly ApplicationDbContext _context = context;
 
-        private readonly ApplicationDbContext _context;
+        public async Task<List<LibraryModel>> GetLibrarysAsync() =>
+            await _context.Librarys.ToListAsync();
 
-        public LibraryServis(ApplicationDbContext context)
+        public async Task<bool> IsExistsByGevreAsync(string genre) =>
+            await _context.Librarys.AnyAsync(x => x.Genre == genre);
+
+
+		public async Task<LibraryModel> CreateLibraryAsync(LibraryAddVM libraryVM)
         {
-            _context = context;
-        }
-        
-        public async Task<bool> AddLibrary(LibraryAddVM vm)
-        {
-            if (_context.Librarys.Any(x => x.Genre == vm.Genre))
+            if (await IsExistsByGevreAsync(libraryVM.Genre))
             {
-                vm.ErrorMessage = $"A library {vm.Genre} already exists";
-                return false;
+                throw new Exception($"A library {libraryVM.Genre} already exists");
             }
 
-            LibraryModel Library = new() { Genre = vm.Genre };
+            LibraryModel Library = new() { Genre = libraryVM.Genre };
             await _context.Librarys.AddAsync(Library);
             await _context.SaveChangesAsync();
-            return true;
+            return Library;
         }
 
-        public async Task<IEnumerable<LibraryModel>> GetAllLibrarys() =>
-            await _context.Librarys
-            .Select(x => x)
-            .ToListAsync();
+        public async Task<LibraryModel?> FindLibraryByIdAsync(int id) =>
+            await _context.Librarys.FirstOrDefaultAsync(x => x.Id == id);
 
-        public async Task<IEnumerable<LibraryModel>> GetAll() =>
-            await _context.Librarys
-             .Include(lib => lib.Shelfs)
-             .ThenInclude(sh => sh.Select(x => x.SetBooksList))
-             .ThenInclude(sb => sb.Select(x => x.Select(x => x.Books)))
-             .ToListAsync();
+
+        public async Task<LibraryModel?> DeleteByIdAsync(int id)
+        {
+            var toDelete = await FindLibraryByIdAsync(id) 
+                ?? throw new Exception($"A library by {id} not exists");
+            _context.Remove(toDelete);
+            await _context.SaveChangesAsync();
+            return toDelete;
+        }
     }
 }

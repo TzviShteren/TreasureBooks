@@ -14,10 +14,21 @@
 {
     <h1 style="color: red">@Model.ErrorMessage</h1>
 }
+<div>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            @ViewData.ModelState["createError"]?.Errors.FirstOrDefault()?.ErrorMessage
+        </div>
+    }
+</div>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="AddNewLibrary" method="post">
+
+            @Html.AntiForgeryToken()
+
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Genre" class="control-label"></label>

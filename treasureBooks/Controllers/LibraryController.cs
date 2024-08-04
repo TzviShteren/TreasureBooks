@@ -4,41 +4,54 @@ using treasureBooks.Servis;
 using treasureBooks.ViewModel;
 namespace treasureBooks.Controllers
 {
-    public class LibraryController : Controller
+    public class LibraryController(ILibraryServis libraryServis) : Controller
     {
-        
-        private readonly ILibraryServis _libraryServis;
-        private readonly ApplicationDbContext _context;
+
+        private readonly ILibraryServis _libraryServis = libraryServis;
 
 
-        public LibraryController(ILibraryServis servis, ApplicationDbContext context)
-        {
-            _libraryServis = servis;
-            _context = context;
-        }
+        public async Task<IActionResult> Index() =>
+			View(await _libraryServis.GetLibrarysAsync());
 
-        public async Task<IActionResult> Index()
+
+		public async Task<IActionResult> AllInformation()
         {
-            return View(await _libraryServis.GetAllLibrarys());
-        }
-        public async Task<IActionResult> AllInformation()
-        {
-            return View(await _libraryServis.GetAll());
+            return View(await _libraryServis.GetLibrarysAsync());
         }
 
         [HttpGet]
-        public IActionResult AddNewLibrary()
-        {
-            return View(new LibraryAddVM());
-        }
+        public IActionResult AddNewLibrary() =>
+            View(new LibraryAddVM());
+        
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddNewLibrary(LibraryAddVM vm) =>
-                    await _libraryServis.AddLibrary(vm) ? RedirectToAction("Index") : View(vm);
+        public async Task<IActionResult> AddNewLibrary(LibraryAddVM vm)
+        {
+            try
+            {
+                await _libraryServis.CreateLibraryAsync(vm);
+                return RedirectToAction("Index");
+			}
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("createError", ex.Message);
+                return View(new LibraryAddVM());
+            }
+        }
 
-
-        //[HttpPost]
-        //[ActivatorUtilitiesConstructor]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                var delete = await _libraryServis.DeleteByIdAsync(id);
+                return View("Details", delete);
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("createError", ex.Message);
+                return View("Index", await _libraryServis.GetLibrarysAsync());
+            }
+        }
     }
 }

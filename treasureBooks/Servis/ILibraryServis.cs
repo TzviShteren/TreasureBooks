@@ -5,9 +5,12 @@ namespace treasureBooks.Servis
 {
     public interface ILibraryServis
     {
-        Task<IEnumerable<LibraryModel>> GetAllLibrarys();
-        Task<IEnumerable<LibraryModel>> GetAll();
-        Task<bool> AddLibrary(LibraryAddVM newGenre);
+        Task<List<LibraryModel>> GetLibrarysAsync();
+		Task<bool> IsExistsByGevreAsync(string genre);
+		Task<LibraryModel> CreateLibraryAsync(LibraryAddVM newGenre);
+		Task<LibraryModel?> FindLibraryByIdAsync(int id);
+
+        Task<LibraryModel?> DeleteByIdAsync(int id);
 
         //LibraryModel SearchLibrarys();
     }
